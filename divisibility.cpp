@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-
+// U = {1, 2, 3, ... , 1689}
+// how many??? {x:x ∈ U && 3|x}
 void count_divisible_elements(vector<int> a) {
   for (int num : a) {
     int res = 0;
