@@ -13,7 +13,7 @@ string to_base_X(int num, int base) {
     s = char('0' + (num % base)) + s;
     num /= base;
   }
-  return s + "  in base-" + char('0' + base);
+  return s + " in base-" + char('0' + base);
 }
 
 string to_base_16(int num) {
@@ -33,7 +33,7 @@ string to_base_16(int num) {
     }
     num /= 16;
   }
-  return s + "  in base-16";
+  return s + " in base-16";
 }
 
 int main() {
@@ -44,6 +44,8 @@ int main() {
     cin >> a;
     cout << to_base_X(a, 2) << endl;
     cout << to_base_16(a) << endl;
+    cout << "User enter an input: ";
+    cin >> a;
   }
 
   return 0;
