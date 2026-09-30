@@ -50,3 +50,5 @@ int main() {
 
   return 0;
 }
+
+// g++ base_conversion.cpp -o a.out && ./a.out && rm -rf a.out
