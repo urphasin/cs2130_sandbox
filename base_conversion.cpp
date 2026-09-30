@@ -39,7 +39,12 @@ string to_base_16(int num) {
 int main() {
   
   int a = 1024;
-  cout << "User enter an input: ";
-  cin >> a;
-  cout << to_base_X(a, 2) << endl;
+  while(a != -1) {
+    cout << "User enter an input: ";
+    cin >> a;
+    cout << to_base_X(a, 2) << endl;
+    cout << to_base_16(a) << endl;
+  }
+
+  return 0;
 }
