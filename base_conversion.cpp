@@ -7,11 +7,13 @@ Convert between bases manually.  Start with base 10 and convert to bases 8, 16, 
 */
 
 string to_base_X(int num, int base) {
-  
+
 }
 
 int main() {
+  
   int a = 1024;
-
+  cout << "User enter an input: ";
+  cin >> a;
   cout << to_base_X(a, 2) << endl;
 }
