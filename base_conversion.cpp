@@ -23,10 +23,10 @@ string to_base_16(int num) {
     if (rem >= 10) {
       if (rem == 10) { s = 'A' + s; }
       else if (rem == 11) { s = 'B' + s; }
-      else if (rem == 12) { s = 'B' + s; }
-      else if (rem == 13) { s = 'C' + s; }
-      else if (rem == 14) { s = 'D' + s; }
-      else if (rem == 15) { s = 'E' + s; }
+      else if (rem == 12) { s = 'C' + s; }
+      else if (rem == 13) { s = 'D' + s; }
+      else if (rem == 14) { s = 'E' + s; }
+      else if (rem == 15) { s = 'F' + s; }
     } 
     else {
       s = char('0' + rem) + s;
